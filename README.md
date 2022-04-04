@@ -217,7 +217,7 @@ Follow steps 1 and 2 (not 3 and 4) of [these instructions](https://github.com/Di
 
 ## Step 6: Install JACK to connect audio from the Teensy to the GamePi43
 
-Install JACK to connect audio from the Teensy to the GamePi43 (when asked, answer `Yes` to allowing real-time scheduling):
+Install JACK to connect audio from the Teensy to the GamePi43 (answer `Yes` when asked to "Enable realtime process priority?"):
 
 ```sh
 sudo apt install jackd2
