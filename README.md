@@ -164,7 +164,7 @@ sudo reboot
 
 ## Step 4: Install `m8c` for GamePi43
 
-Install the packages needed to compile and install `m8c` (and `libserialport`):
+Login again and install the packages needed to compile and install `m8c` (and `libserialport`):
 
 ```sh
 sudo apt install git gcc make libsdl2-dev
@@ -234,7 +234,7 @@ sudo reboot
 
 ## Setup GamePi43 to auto-login and launch `m8c` with the MatchBox window manager
 
-Start `m8c`, it should automatically detect your Teensy:
+Login again and start `m8c`, it should automatically detect your Teensy:
 
 ```sh
 m8c
