@@ -102,7 +102,6 @@ LC_IDENTIFICATION="en_US.UTF-8"
 LC_ALL=en_US.UTF-8
 ```
 
-
 ## Step 2: Install `RetroPie-Setup` and the arcade joystick driver
 
 Install the packages needed to install `RetroPie-Setup`:
@@ -290,4 +289,3 @@ Upon reboot, if everything was done correctly, the GamePi43 will auto-login, lau
 In order to kill `m8c` and power off the device, press (X + B + DownArrow) and move the power switch to off.
 
 After all of this, I prefer to [disable the wifi](https://pimylifeup.com/raspberry-pi-disable-wifi/) to extend battery life and, when I need access to the Raspberry Pi OS on the GamePi43, ssh using direct connection via ethernet cable.
-
