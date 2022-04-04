@@ -168,6 +168,9 @@ Login again and install the packages needed to compile and install `m8c` (and `l
 
 ```sh
 sudo apt install git gcc make libsdl2-dev
+```
+
+```sh
 sudo apt install autotools-dev autoconf libtool
 ```
 
