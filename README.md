@@ -31,6 +31,8 @@ First and foremost, huge thanks to the authors, developers and contributors of t
 - https://www.matteomattei.com/web-kiosk-with-raspberry-pi-and-read-only-sd/
 - http://matchbox-project.org/
 - https://jackaudio.org/
+- https://www.raspberrypi.com/for-home/
+- https://www.pjrc.com/store/teensy41.html
 
 without whom none of what is explained here would be possible! :)
 
