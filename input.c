@@ -407,8 +407,13 @@ input_msg_s get_input_msg(config_params_s *conf) {
   // Query for SDL events
   handle_sdl_events(conf);
 
-  if (keycode == (key_start | key_select | key_opt | key_edit)) {
+  // additional special button combinations
+  if (keycode == (key_select | key_opt | key_up)) {
     key = (input_msg_s){special, msg_reset_display};
+  }
+
+  if (keycode == (key_select | key_opt | key_down)) {
+    key = (input_msg_s){special, msg_quit};
   }
 
   if (key.type == normal) {
