@@ -42,7 +42,7 @@ First, you need to install Raspberry Pi OS to its microSD card using the [Raspbe
 
 **Make sure to install Raspberry Pi OS Lite (Legacy)** and to enable ssh and wifi in the advanced options, if you plan to login remotely and wirelessly into your Raspberry Pi (recommended).
 
-Reinsert the microSD card into your computer, open the `config.txt` file in the `root` directory of the microSD card, add the following code at the end of `config.txt`:
+Reinsert the microSD card into your computer, open the `config.txt` file in the `boot` directory of the microSD card, add the following code at the end of `config.txt`:
 
 ```
 max_usb_current=1
