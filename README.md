@@ -25,8 +25,7 @@ First and foremost, huge thanks to the authors, developers and contributors of t
 - https://www.waveshare.com/wiki/GamePi43
 - https://github.com/recalbox/mk_arcade_joystick_rpi
 - https://github.com/sigrokproject/libserialport
-- https://github.com/laamaa/m8c
-- https://github.com/laamaa/m8c/issues/20
+- https://github.com/laamaa/m8c and https://github.com/laamaa/m8c/issues/20
 - https://github.com/laamaa/m8c/blob/main/AUDIOGUIDE.md
 - https://github.com/rasprague/m8c-piboy
 - https://www.matteomattei.com/web-kiosk-with-raspberry-pi-and-read-only-sd/
@@ -284,7 +283,7 @@ Exit `raspi-config` and reboot:
 sudo reboot
 ```
 
-Upon reboot, if everything was done correctly, the GamePi43 will launch `m8c` and connect the audio.
+Upon reboot, if everything was done correctly, the GamePi43 will auto-login, launch `m8c`, and connect the audio.
 
 In order to kill `m8c` and power off the device, press (X + B + DownArrow) and move the power switch to off.
 
