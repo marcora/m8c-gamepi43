@@ -293,7 +293,7 @@ Upon reboot, if everything was done correctly, the GamePi43 will auto-login, lau
 
 In order to kill `m8c` and power off the device, press (X + Y + DownArrow) and move the power switch to off.
 
-After all of this, I prefer to disable wifi and bluetooth to extend battery life and, when I need access to the Raspberry Pi OS on the GamePi43, ssh using direct connection via ethernet cable. To disable wifi and bluetooth add the following lines at the end of `/boot/config.txt`:
+After all of this, I prefer to disable wifi and bluetooth to extend battery life and, when I need access to the Raspberry Pi OS on the GamePi43, ssh using direct connection via ethernet cable. To disable wifi and bluetooth add the following lines at the end of `/boot/config.txt` and reboot:
 
 ```
 dtoverlay=disable-wifi
