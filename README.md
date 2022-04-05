@@ -299,3 +299,7 @@ After all of this, I prefer to disable wifi and bluetooth to extend battery life
 dtoverlay=disable-wifi
 dtoverlay=disable-bt
 ```
+
+## Where to go from here?
+
+If you are interested in adding the Dirtywave M8 headless tracker as an "app" in RetroPie or if you are interested in more complex launcher scripts and setups, please see the excellent work by Richard "spike" Sprague at https://github.com/rasprague/m8c-piboy that has been the source of inspiration for this project of mine.
